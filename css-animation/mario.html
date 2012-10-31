@@ -6,22 +6,15 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 <head>
 	<meta charset="utf-8">
-	<!-- Use the .htaccess and remove these lines to avoid edge case issues.
-		 More info: h5bp.com/i/378 -->
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<title></title>
+
+	<title>Mario CSS media queries demo</title>
 	<meta name="description" content="">
 
-	<!-- Mobile viewport optimized: h5bp.com/viewport -->
 	<meta name="viewport" content="width=device-width">
 
 	<link rel="stylesheet" href="css/kickoff.css">
 
-	<!-- More ideas for your <head> here: h5bp.com/d/head-Tips -->
-	<!-- All JavaScript at the bottom, except this Modernizr build.
-		 Modernizr enables HTML5 elements & feature detects for optimal performance.
-		 Create your own custom Modernizr build: www.modernizr.com/download/ -->
-	<script src="js/libs/modernizr.min.js"></script>
 </head>
 <body>
 	<!-- Prompt IE 6 users to install Chrome Frame. Remove this if you support IE 6.
@@ -37,10 +30,53 @@
 	</header>
 
 
+	<div id="levelSelect">
+		<div class="imgWrapper">
+			<img class="levelSelect" src="img/level-select.png" />
+			<img class="marioFlat" src="img/mario-flat.png" />
+
+			<div id="textBox" class="textBox">
+				<h1>World 1</h1>
+				<h2 class="startText alpha">Resize your window to less than 420 pixel width to start!</h2>
+				<a href="" class="btn startBtn">Start</a>
+			</div>
+		</div>
+	</div>
+
 	<!--  ====================  -->
 	<!--  === MAIN CONTENT ===  -->
 	<!--  ====================  -->
-	<div role="main">
+	<div role="main" id="mainScene" class="main">
+
+		<p class="moveText alpha">Increase browser window size slightly</p>
+
+		<div class="mario"></div>
+
+		<div class="goomba enemy1"></div>
+
+		<div class="mushroom"></div>
+
+		<div class="piranha enemy2"></div>
+		<div class="fireball"></div>
+
+		<img src="img/q-box.gif" class="qbox qbox1" />
+		<div class="qbox-sprite qbox1"></div>
+		<img src="img/q-box.gif" class="qbox qbox2" />
+		<div class="qbox-sprite qbox2"></div>
+		<img src="img/q-box.gif" class="qbox qbox3" />
+		<img src="img/q-box.gif" class="qbox qbox4" />
+		<div class="qbox-sprite qbox4"></div>
+
+		<div class="coin coin1"></div>
+		<div class="coin coin2"></div>
+		<div class="coin coin3"></div>
+
+
+		<img src="img/q-box.gif" class="qbox qbox5" />
+		<div class="qbox-sprite qbox5"></div>
+
+		<div class="goomba enemy3"></div>
+		<div class="turtle enemy4"></div>
 
 	</div>
 
@@ -53,10 +89,10 @@
 	</footer>
 
 
-	<!-- JavaScript at the bottom for fast page loading -->
-	<!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-	<script>window.jQuery || document.write('<script src="js/libs/jquery.min.js"><\/script>')</script>
+	<!--<audio id="world-theme">
+		<source src="soundboard/smb3-overworld-1.mp3" type='audio/mpeg; codecs="mp3"'>
+		<source src="soundboard/smb3-overworld-1.ogg" type='audio/ogg; codecs="vorbis"'>
+	</audio>-->
 
 	<script src="js/plugins.js"></script>
 	<script src="js/script.js"></script>

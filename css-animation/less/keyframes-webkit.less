@@ -1,0 +1,179 @@
+//Base keyframs for common animations
+
+	@-webkit-keyframes flat-mario {
+		0% { left: 8.5%; }
+		20% { left: 22.5%; top: 20%; }
+		35% { left: 22.5%; top: 20%; }
+		55% { left:22.5%; top:1%; }
+		100% { left:22.5%; top:1%; }
+	}
+
+//walking
+	@-webkit-keyframes mario-sprite-walk {
+		0% { background-position:0 top; }
+		50% { background-position:-63px top; }
+	}
+	@-webkit-keyframes mario-sprite-walk-large {
+		0% { background-position:0 -179px; }
+		50% { background-position:-140px -179px; }
+		100% { background-position:-140px -179px; }
+	}
+
+	@-webkit-keyframes mario-sprite-jump {
+		0%	{ background-position:-198px top; }
+		30% {background-position:-198px top; .transform(scaleX(-1)); }
+		31% { background-position:-198px top; .transform(scaleX(1)); }
+		100% { background-position:0 top; .transform(scaleX(-1)); }
+	}
+
+	@-webkit-keyframes coinup {
+		0% { bottom: 182px; .opacity(0); }
+		20% { .opacity(100); }
+		50% { bottom:280px; }
+		80% { .opacity(100); }
+		100% { bottom:182px; .opacity(0); }
+	}
+
+
+
+
+
+	@-webkit-keyframes qbox-up-lower {
+		0% { bottom: 128px; .opacity(0); }
+		50% { bottom: 142px; .opacity(100); }
+		100% { bottom:128px; .opacity(100); }
+	}
+	@-webkit-keyframes mario-run-first {
+		0% { left: 20px; }
+		100% { left:338px; }
+	}
+	@-webkit-keyframes mario-jump-first {
+		0% { bottom: 30px; left: 340px; }
+		30% { bottom: 110px; left: 400px; }
+		50% { bottom: 43px; left: 410px; }
+		75% { bottom: 110px; left: 450px; }
+		100% { bottom: 30px;  left: 455px; }
+	}
+	@-webkit-keyframes enemy1 {
+		0% { left: 500px; }
+		100% { left:410px; }
+	}
+	@-webkit-keyframes stagemove-first {
+		0% { left:0; }
+		4% { left:-80px; }
+		8% { left:-150px; }
+		10% { left:-180px; }
+		100% { left:-180px; }
+	}
+
+
+		@-webkit-keyframes qbox-up-qbox4 {
+			0% { bottom: 239px; .opacity(0); }
+			50% { bottom: 253px; .opacity(100); }
+			100% { bottom:239px; .opacity(100); }
+		}
+		@-webkit-keyframes mushroom-reveal {
+			0%	{ bottom:254px; .opacity(0); }
+			18% { .opacity(100); }
+			71% { .opacity(100); }
+			72% { .opacity(0); }
+			100% { bottom:294px; }
+		}
+
+		@-webkit-keyframes mario-jump-second {
+			0% { bottom:30px; left: 455px; }
+			20% { bottom:171px; left: 530px; }
+			30% { bottom:138px; left: 554px; }
+			32% { bottom:138px; left: 554px; }
+			47% { bottom:228px; left: 560px; }
+			62% { bottom:138px; left: 560px; }
+			64% { bottom:138px; left: 560px; }
+			76% { bottom:233px; left: 590px; }
+			80% { bottom:253px; left: 600px; }
+			84% { bottom:273px; left: 595px; }
+			90% { bottom:293px; left: 580px; }
+			100% { bottom:293px; left: 580px; }
+		}
+		@-webkit-keyframes mario-sprite-jump-2 {
+			0%	{ background-position:-198px top; }
+			30% { background-position:0 top; }
+			33%	{ background-position:-198px top; }
+			62% { background-position:0 top; }
+			64% { background-position:-198px top; }
+			100% { background-position:0 top; }
+		}
+		@-webkit-keyframes mario-grow {
+			0%	{ background-position:0 top; }
+			33% { background-position:0 -179px; }
+			66%	{ background-position:0 top; }
+			100% { background-position:0 -179px; }
+		}
+		@-webkit-keyframes stagemove-second {
+			0% { left:-180px; }
+			50% { left:-250px; }
+			60% { left:-265px; }
+			100% { left:-265px; }
+		}
+
+			@-webkit-keyframes stagemove-third {
+				0% { left:-265px; }
+				25% { left:-360px; }
+				60% { left:-500px; }
+				100% { left:-650px; }
+			}
+
+			@-webkit-keyframes mario-run-second {
+				0% { left: 580px; bottom:293px; }
+				40% { left: 614px; bottom:253px; }
+				80% { left:626px; bottom:220px; }
+				100% { left:656px; bottom:220px; }
+			}
+			@-webkit-keyframes mario-run-sprite-second {
+				0% { background-position: -140px -181px; }
+				30% { background-position: -140px -181px; }
+				31% { background-position: 0 -179px; }
+				60% { background-position: -205px -181px; }
+				100% { background-position: 0 -179px; }
+			}
+			@-webkit-keyframes mario-jump-third {
+				0% { left: 656px; bottom:220px; }
+				30% { left: 740px; bottom:310px; }
+				40% { left: 770px; bottom:320px; }
+				50% { left: 810px; bottom:300px; }
+				100% { left:920px; bottom:145px; }
+			}
+			@-webkit-keyframes mario-jump-qbox {
+				0% { left: 920px; bottom:145px; }
+				10% { left: 940px; bottom:145px; }
+				30% { left: 965px; bottom:170px; }
+				50% { left: 980px; bottom:145px; }
+				100% { left:1050px; bottom:145px; }
+			}
+
+			@-webkit-keyframes qbox-up-qbox5 {
+				0% { bottom: 202px; .opacity(0); }
+				50% { bottom: 216px; .opacity(100); }
+				100% { bottom:202px; .opacity(100); }
+			}
+			@-webkit-keyframes coinup-two {
+				0% { bottom: 262px; .opacity(0); }
+				20% { .opacity(100); }
+				50% { bottom:360px; }
+				80% { .opacity(100); }
+				100% { bottom:262px; .opacity(0); }
+			}
+
+
+			@-webkit-keyframes fireball-rotate {
+				0% { .rotate(0deg); }
+				100% { .rotate(360deg) }
+			}
+			@-webkit-keyframes fireball-move {
+				0% {	bottom:206px; 	left:810px; }
+				100% {	bottom:550px;	left:0px; }
+			}
+
+			@-webkit-keyframes piranha-move {
+				from {	height:74px; }
+				to {	height:0px; }
+			}
