@@ -1,5 +1,6 @@
 /*	Author:
-		TMW - (Author Name Here)
+		Ashley Nolan @dragongraphics - this JS is very quick and hacky.
+		it does the job, but isn't the nicest structured code in the world!
 */
 
 var startBtn = document.querySelector('.startBtn'),

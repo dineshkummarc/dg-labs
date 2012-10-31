@@ -142,14 +142,7 @@
 			}
 			@-webkit-keyframes mario-run-sprite-second {
 				0% { background-position: -140px -181px; }
-				30% { background-position: -140px -181px; }
-				31% { background-position: 0 -179px; }
-				60% { background-position: -205px -181px; }
-				80% { background-position: -74px -179px; }
-				85% { background-position: -140px -181px; }
-				90% { background-position: -74px -179px; }
-				95% { background-position: -140px -181px; }
-				100% { background-position: 0 -179px; }
+				100% { background-position: -205px -181px; }
 			}
 			@-webkit-keyframes mario-jump-third {
 				0% { left: 646px; bottom:220px; }
@@ -231,15 +224,15 @@
 				100% { left: 1267px; bottom:110px; }
 			}
 			@-webkit-keyframes mario-sprite-turtle-hit {
-				0% { background-position:-140px -181px; }
-				5% { background-position:-74px -179px; }
-				10% { background-position:-140px -181px; }
-				15% { background-position:-74px -179px; }
-				20% { background-position:-140px -181px; }
+				0% { background-position:-140px -181px; .transform(scaleX(1)); }
+				5% { background-position:-74px -179px; .transform(scaleX(1)); }
+				10% { background-position:-140px -181px; .transform(scaleX(1)); .transform(scaleX(1)); }
+				15% { background-position:-74px -179px; .transform(scaleX(1)); }
+				20% { background-position:-140px -181px; .transform(scaleX(1)); }
 				40% { background-position:-140px -181px; .transform(scaleX(1)); }
-				54% {background-position:-205px -181px; }
-				65% { background-position:-140px -181px; }
-				90% { background-position:-336px -179px; }
+				54% {background-position:-205px -181px; .transform(scaleX(1)); }
+				65% { background-position:-140px -181px; .transform(scaleX(1)); }
+				90% { background-position:-336px -179px; .transform(scaleX(1)); }
 				97% { background-position:-74px -179px; .transform(scaleX(-1)); }
 				100% { background-position:-140px -181px; .transform(scaleX(-1)); }
 			}
@@ -250,8 +243,9 @@
 				100% { left:1340px; }
 			}
 			@-webkit-keyframes turtle-sprite {
-				0% { background-position:-256px -703px; }
-				60% { background-position:-256px -703px; .transform(scaleX(1)); }
+				0% { background-position:-256px -703px; .transform(scaleX(-1)); }
+				59% { background-position:-256px -703px; .transform(scaleX(-1));  }
+				60% { background-position:-256px -703px; .transform(scaleX(1));  }
 				94% { background-position:-256px -703px; .transform(scaleX(1)); }
 				95% { background-position:-314px -704px; .transform(scaleX(1)); }
 				100% { background-position:-314px -704px; .transform(scaleX(1)); }
@@ -293,8 +287,7 @@
 		25% { background-position:-140px -181px; }
 		35% { background-position:-604px -266px; }
 		45% { background-position:-663px -266px; }
-		60% { background-position:-733px -266px; }
-		70% { background-position:-131px -528px; }
+		60% { background-position:-131px -528px; }
 		100% { background-position:-131px -528px; }
 	}
 
@@ -357,15 +350,18 @@
 			100% { left: 2088px; bottom:72px; }
 		}
 		@-webkit-keyframes mario-jump-seventh-sprite {
-			0% { background-position:-196px -528px; }
-			15% { background-position:-131px -528px; }
-			25% { background-position:-196px -528px; }
-			34% { background-position:-131px -528px; }
-			45% { background-position:-196px -528px; }
-			60% { background-position:-131px -528px; }
+			0% { background-position:-196px -528px; .transform(scaleX(-1)); }
+			15% { background-position:-131px -528px; .transform(scaleX(-1)); }
+			25% { background-position:-196px -528px; .transform(scaleX(-1)); }
+			34% { background-position:-131px -528px; .transform(scaleX(-1)); }
+			45% { background-position:-196px -528px; .transform(scaleX(-1)); }
+			60% { background-position:-131px -528px; .transform(scaleX(-1)); }
+			79% { background-position:-131px -528px; .transform(scaleX(-1)); }
 			80% { background-position:-131px -528px; .transform(scaleX(1)); }
+			95% { background-position:-131px -528px; .transform(scaleX(1)); }
 			96% { background-position:-264px -539px; .transform(scaleX(-1)); }
 			97% { background-position:-917px -615px; .transform(scaleX(-1)); }
+			99% { background-position:-131px -528px; .transform(scaleX(1)); }
 			100% { background-position:-131px -528px; .transform(scaleX(1)); }
 		}
 
@@ -428,8 +424,8 @@
 		100% { background-position:-68px -528px; .transform(scaleX(1)); }
 	}
 	@-webkit-keyframes mario-sprite-sprint-trans {
-		0% { background-position:-336px -526px; .transform(scaleX(1)); }
-		50% { background-position:-131px -528px; .transform(scaleX(-1)); }
+		0% { background-position: -336px -526px; .transform(scaleX(1)); }
+		49% { background-position:-131px -528px; .transform(scaleX(-1)); }
 		55% { background-position:-68px -528px; .transform(scaleX(-1)); }
 		70% { background-position:-131px -528px; .transform(scaleX(-1)); }
 		85% { background-position:-68px -528px; .transform(scaleX(-1)); }
