@@ -7,8 +7,13 @@ var startBtn = document.querySelector('.startBtn'),
 	marioFlat = document.querySelector('.marioFlat'),
 	mario = document.querySelector('.mario'),
 	coin = document.querySelectorAll('.coin'),
+	qbox = document.querySelectorAll('.qbox'),
 	mushroom = document.querySelector('.mushroom'),
-	enemy1 = document.querySelector('.enemy1');
+	goombaDies = document.querySelectorAll('.enemy-dies'),
+	enemy1 = document.querySelector('.enemy1'),
+	enemy4 = document.querySelector('.enemy4'),
+	enemy5 = document.querySelector('.enemy5'),
+	enemy7 = document.querySelector('.enemy7');
 
 //  =======================
 //  === EVENT LISTENERS ===
@@ -45,27 +50,78 @@ var startBtn = document.querySelector('.startBtn'),
 		}
 
 //listening for end of the first goomba animation
-	enemy1.addEventListener('animationend', enemyHide);
-	enemy1.addEventListener('webkitAnimationEnd', enemyHide);
-		function enemyHide(e) {
-			log(e);
-			e.currentTarget.className += ' dead';
-			window.setTimeout(deleteNode, 500, '.enemy1');
+	var i, enemyLength = goombaDies.length;
+	for (i = 0; i < enemyLength; i++) {
+		goombaDies[i].addEventListener('animationend', enemyDead);
+		goombaDies[i].addEventListener('webkitAnimationEnd', enemyDead);
+	}
+		function enemyDead(e) {
+			if (!audioStomp.paused) {
+				audioStomp.currentTime = 0.01;
+			} else {
+				audioStomp.play();
+			}
+
+			//e.currentTarget.className += ' dead';
+			//window.setTimeout(deleteNode, 500, e.currentTarget);
+		}
+
+	enemy4.addEventListener('animationend', playStomp);
+	enemy4.addEventListener('webkitAnimationEnd', playStomp);
+		function playStomp(e) {
+			if (e.animationName !== 'turtle-hit-qbox') {
+
+				if (!audioStomp.paused) {
+					audioStomp.currentTime = 0.01;
+				} else {
+					audioStomp.play();
+				}
+			}
+		}
+
+	enemy4.addEventListener('animationstart', playKick);
+	enemy4.addEventListener('webkitAnimationEnd', playKick);
+		function playKick() {
+			audioKick.play();
+		}
+
+	enemy7.addEventListener('animationstart', wingedGoomba);
+	enemy7.addEventListener('webkitAnimationStart', wingedGoomba);
+		function wingedGoomba(e) {
+
+			if (e.animationName === 'enemy-seventh') {
+				window.setTimeout(function () { audioStomp.currentTime = 0.01; audioStomp.play(); }, 1800);
+			} else if (e.animationName === 'enemy-seventh-dead') {
+				audioTailSpin.play();
+			}
 		}
 
 //coin
 	var i, coinLength = coin.length;
 	for (i = 0; i < coinLength; i++) {
-		coin[i].addEventListener('animationStart', playCoin);
+		coin[i].addEventListener('animationstart', playCoin);
 		coin[i].addEventListener('webkitAnimationStart', playCoin);
 	}
-	function playCoin(e) {
-		if (!audioCoin.paused) {
-			audioCoin.currentTime = 0.01;
-		} else {
-			audioCoin.play();
+		function playCoin() {
+			if (!audioCoin.paused) {
+				audioCoin.currentTime = 0.01;
+			} else {
+				audioCoin.play();
+			}
 		}
+
+	var i, qboxLength = qbox.length;
+	for (i = 0; i < qboxLength; i++) {
+		qbox[i].addEventListener('animationstart', playBump);
+		qbox[i].addEventListener('webkitAnimationStart', playBump);
 	}
+		function playBump() {
+			if (!audioBump.paused) {
+				audioBump.currentTime = 0.01;
+			} else {
+				audioBump.play();
+			}
+		}
 
 //mushroom
 	mushroom.addEventListener('animationstart', function(e) { audioMushroom.play(); });
@@ -78,10 +134,16 @@ var startBtn = document.querySelector('.startBtn'),
 			switch (e.animationName) {
 				//jumps
 				case 'mario-jump-first':
+				case 'mario-jump-third':
+				case 'mario-jump-qbox':
+				case 'mario-jump-fourth':
+				case 'mario-jump-fifth':
+				case 'mario-jump-sixth':
+					moveTextToggle('hide'); //turn sign off
 					audioMarioJump.play();
 					break;
 				case 'mario-jump-second':
-					moveTextToggle(); //turn sign off
+					moveTextToggle('hide'); //turn sign off
 					audioMarioJump.play();
 					window.setTimeout(function () { audioMarioJump.currentTime = 0.01; }, 370);
 					break;
@@ -89,11 +151,21 @@ var startBtn = document.querySelector('.startBtn'),
 					audioPowerUp.play();
 					break;
 				case 'mario-run-second':
-					moveTextToggle(); //turn sign off
+				case 'mario-sprite-jump-fourth':
+				case 'mario-kick-shell':
+				case 'mario-jump-sixth':
+				case 'mario-sprint':
+					moveTextToggle('hide'); //turn sign off
+					break;
+				case 'mario-racoon-change':
+					audioRacoon.play();
+					break;
+				case 'mario-flight-sprite':
+					window.setTimeout(function () { audioFlight.play(); }, 400);
 					break;
 			}
 		}
-	mario.addEventListener('animationEnd', marioEventEndListener);
+	mario.addEventListener('animationend', marioEventEndListener);
 	mario.addEventListener('webkitAnimationEnd', marioEventEndListener);
 		function marioEventEndListener(e) {
 			switch (e.animationName) {
@@ -101,7 +173,10 @@ var startBtn = document.querySelector('.startBtn'),
 				case 'mario-jump-first':
 				case 'mario-grow':
 				case 'mario-jump-qbox':
-					moveTextToggle();
+				case 'mario-turtle-hit':
+				case 'mario-racoon-change':
+				case 'mario-jump-seventh':
+					moveTextToggle('show');
 					break;
 			}
 		}
@@ -122,9 +197,15 @@ var audio = new Audio(), //generic audio object for testing
 	mapTravel,
 	levelBegin,
 	audioMarioJump,
+	audioFlight,
 	audioCoin,
+	audioBump,
+	audioStomp,
+	audioKick,
+	audioTailSpin,
 	audioMushroom,
-	audioPowerUp;
+	audioPowerUp,
+	audioRacoon;
 
 
 audioSelectTheme = createAudio("soundboard/smb3-world-map", true);
@@ -133,10 +214,15 @@ audioNewWorld = createAudio("soundboard/smb3_map_new_world");
 mapTravel = createAudio("soundboard/smb3_map_travel");
 levelBegin = createAudio("soundboard/smb3_enter_level");
 audioMarioJump = createAudio("soundboard/smb3_jump");
+audioFlight = createAudio("soundboard/smb3_pmeter");
 audioCoin = createAudio("soundboard/smb3_coin");
+audioBump = createAudio("soundboard/smb3_bump");
+audioStomp = createAudio("soundboard/smb3_stomp");
+audioKick = createAudio("soundboard/smb3_kick");
+audioTailSpin = createAudio("soundboard/smb3_tail");
 audioMushroom = createAudio("soundboard/smb3_mushroom_appears");
-audioPowerUp = createAudio("soundboard/smb3_power-up");
-
+audioPowerUp = createAudio("soundboard/smb3_power-up"),
+audioRacoon = createAudio("soundboard/smb3_raccoon_transform");
 
 audioSelectTheme.play();
 
@@ -160,15 +246,15 @@ function createAudio (audioFile, loopSet) {
 
 
 function deleteNode(element) {
-	document.querySelector(element).style.display = 'none';
+	element.style.display = 'none';
 }
 
-function moveTextToggle () {
+function moveTextToggle (state) {
 	var moveTextState = moveText.style.display;
 
-	if (moveTextState === 'block') {
+	if (moveTextState === 'block' || state === 'hide') {
 		moveText.style.display = 'none';
-	} else {
+	} else if (moveTextState !== 'block' || state === 'show') {
 		moveText.style.display = 'block';
 	}
 }

@@ -70,21 +70,31 @@ h1, h2, h3, h4, h5, h6 {
 h1,
 .alpha {
 	color:@white;
-	.font-size(24);
-	.line-height(20);
-	margin-top:5%;
+	.font-size(10);
+	.line-height(16);
+	margin-top:2%;
 	text-transform:uppercase;
 	small {
 		.font-size(18);
 	}
 }
+	@media (min-width: 320px) {
+		h1,
+		.alpha {
+			.font-size(24);
+			.line-height(20);
+			margin-top:5%;
+		}
+	}
 	@media (min-width: 600px) {
 		h1,
 		.alpha {
 			.font-size(34);
 			.line-height(32);
-
 		}
+			.startText {
+				.font-size(30);
+			}
 	}
 
 h2 {
