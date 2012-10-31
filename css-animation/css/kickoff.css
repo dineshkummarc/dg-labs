@@ -1180,6 +1180,7 @@ body {
   -webkit-animation: flat-mario 1000ms 600ms linear;
   -moz-animation: flat-mario 1000ms 600ms linear;
   -ms-animation: flat-mario 1000ms 600ms linear;
+  -o-animation: flat-mario 1000ms 600ms linear;
   animation: flat-mario 1000ms 600ms linear;
   -moz-animation-fill-mode: forwards;
   -webkit-animation-fill-mode: forwards;
@@ -1472,122 +1473,149 @@ body {
     -webkit-animation-name: stagemove-first;
     -moz-animation-name: stagemove-first;
     -ms-animation-name: stagemove-first;
+    -o-animation-name: stagemove-first;
     animation-name: stagemove-first;
     -webkit-animation-duration: 10s;
     -moz-animation-duration: 10s;
     -ms-animation-duration: 10s;
+    -o-animation-duration: 10s;
     animation-duration: 10s;
     -webkit-animation-timing-function: linear;
     -moz-animation-timing-function: linear;
     -ms-animation-timing-function: linear;
+    -o-animation-timing-function: linear;
     animation-timing-function: linear;
     -webkit-animation-iteration-count: 1;
     -moz-animation-iteration-count: 1;
     -ms-animation-iteration-count: 1;
+    -o-animation-iteration-count: 1;
     animation-iteration-count: 1;
     -webkit-animation-delay: 1.2s;
     -moz-animation-delay: 1.2s;
     -ms-animation-delay: 1.2s;
+    -o-animation-delay: 1.2s;
     animation-delay: 1.2s;
   }
   .startAnim .coin1 {
     -webkit-animation-name: coinup;
     -moz-animation-name: coinup;
     -ms-animation-name: coinup;
+    -o-animation-name: coinup;
     animation-name: coinup;
     -webkit-animation-duration: 300ms;
     -moz-animation-duration: 300ms;
     -ms-animation-duration: 300ms;
+    -o-animation-duration: 300ms;
     animation-duration: 300ms;
     -webkit-animation-timing-function: ease-in-out;
     -moz-animation-timing-function: ease-in-out;
     -ms-animation-timing-function: ease-in-out;
+    -o-animation-timing-function: ease-in-out;
     animation-timing-function: ease-in-out;
     -webkit-animation-iteration-count: 1;
     -moz-animation-iteration-count: 1;
     -ms-animation-iteration-count: 1;
+    -o-animation-iteration-count: 1;
     animation-iteration-count: 1;
     -webkit-animation-delay: 1650ms;
     -moz-animation-delay: 1650ms;
     -ms-animation-delay: 1650ms;
+    -o-animation-delay: 1650ms;
     animation-delay: 1650ms;
   }
   .startAnim .coin2 {
     -webkit-animation-name: coinup;
     -moz-animation-name: coinup;
     -ms-animation-name: coinup;
+    -o-animation-name: coinup;
     animation-name: coinup;
     -webkit-animation-duration: 300ms;
     -moz-animation-duration: 300ms;
     -ms-animation-duration: 300ms;
+    -o-animation-duration: 300ms;
     animation-duration: 300ms;
     -webkit-animation-timing-function: ease-in-out;
     -moz-animation-timing-function: ease-in-out;
     -ms-animation-timing-function: ease-in-out;
+    -o-animation-timing-function: ease-in-out;
     animation-timing-function: ease-in-out;
     -webkit-animation-iteration-count: 1;
     -moz-animation-iteration-count: 1;
     -ms-animation-iteration-count: 1;
+    -o-animation-iteration-count: 1;
     animation-iteration-count: 1;
     -webkit-animation-delay: 1850ms;
     -moz-animation-delay: 1850ms;
     -ms-animation-delay: 1850ms;
+    -o-animation-delay: 1850ms;
     animation-delay: 1850ms;
   }
   .startAnim .mario {
     -webkit-animation-name: mario-run-first, mario-sprite-walk, mario-jump-first, mario-sprite-jump;
     -moz-animation-name: mario-run-first, mario-sprite-walk, mario-jump-first, mario-sprite-jump;
     -ms-animation-name: mario-run-first, mario-sprite-walk, mario-jump-first, mario-sprite-jump;
+    -o-animation-name: mario-run-first, mario-sprite-walk, mario-jump-first, mario-sprite-jump;
     animation-name: mario-run-first, mario-sprite-walk, mario-jump-first, mario-sprite-jump;
     -webkit-animation-duration: 1000ms, 200ms, 600ms, 600ms;
     -moz-animation-duration: 1000ms, 200ms, 600ms, 600ms;
     -ms-animation-duration: 1000ms, 200ms, 600ms, 600ms;
+    -o-animation-duration: 1000ms, 200ms, 600ms, 600ms;
     animation-duration: 1000ms, 200ms, 600ms, 600ms;
     -webkit-animation-timing-function: ease-in, step-start, linear, step-end;
     -moz-animation-timing-function: ease-in, step-start, linear, step-end;
     -ms-animation-timing-function: ease-in, step-start, linear, step-end;
+    -o-animation-timing-function: ease-in, step-start, linear, step-end;
     animation-timing-function: ease-in, step-start, linear, step-end;
     -webkit-animation-iteration-count: 1, 5, 1, 1;
     -moz-animation-iteration-count: 1, 5, 1, 1;
     -ms-animation-iteration-count: 1, 5, 1, 1;
+    -o-animation-iteration-count: 1, 5, 1, 1;
     animation-iteration-count: 1, 5, 1, 1;
     -webkit-animation-delay: 500ms, 500ms, 1501ms, 1501ms;
     -moz-animation-delay: 500ms, 500ms, 1501ms, 1501ms;
     -ms-animation-delay: 500ms, 500ms, 1501ms, 1501ms;
+    -o-animation-delay: 500ms, 500ms, 1501ms, 1501ms;
     animation-delay: 500ms, 500ms, 1501ms, 1501ms;
   }
   .startAnim .enemy1 {
     -webkit-animation-name: enemy1, goomba-dead;
     -moz-animation-name: enemy1, goomba-dead;
     -ms-animation-name: enemy1, goomba-dead;
+    -o-animation-name: enemy1, goomba-dead;
     animation-name: enemy1, goomba-dead;
     -webkit-animation-duration: 1750ms, 800ms;
     -moz-animation-duration: 1750ms, 800ms;
     -ms-animation-duration: 1750ms, 800ms;
+    -o-animation-duration: 1750ms, 800ms;
     animation-duration: 1750ms, 800ms;
     -webkit-animation-timing-function: ease-in-out, step-start;
     -moz-animation-timing-function: ease-in-out, step-start;
     -ms-animation-timing-function: ease-in-out, step-start;
+    -o-animation-timing-function: ease-in-out, step-start;
     animation-timing-function: ease-in-out, step-start;
     -webkit-animation-iteration-count: 1, 1;
     -moz-animation-iteration-count: 1, 1;
     -ms-animation-iteration-count: 1, 1;
+    -o-animation-iteration-count: 1, 1;
     animation-iteration-count: 1, 1;
     -webkit-animation-delay: 0s, 1750ms;
     -moz-animation-delay: 0s, 1750ms;
     -ms-animation-delay: 0s, 1750ms;
+    -o-animation-delay: 0s, 1750ms;
     animation-delay: 0s, 1750ms;
   }
   .startAnim .qbox1 {
     -webkit-animation: qbox-up-lower 100ms 1650ms linear;
     -moz-animation: qbox-up-lower 100ms 1650ms linear;
     -ms-animation: qbox-up-lower 100ms 1650ms linear;
+    -o-animation: qbox-up-lower 100ms 1650ms linear;
     animation: qbox-up-lower 100ms 1650ms linear;
   }
   .startAnim .qbox2 {
     -webkit-animation: qbox-up-lower 80ms 1950ms linear;
     -moz-animation: qbox-up-lower 80ms 1950ms linear;
     -ms-animation: qbox-up-lower 80ms 1950ms linear;
+    -o-animation: qbox-up-lower 80ms 1950ms linear;
     animation: qbox-up-lower 80ms 1950ms linear;
   }
 }
@@ -1607,22 +1635,27 @@ body {
     -webkit-animation-name: stagemove-second;
     -moz-animation-name: stagemove-second;
     -ms-animation-name: stagemove-second;
+    -o-animation-name: stagemove-second;
     animation-name: stagemove-second;
     -webkit-animation-duration: 1.8s;
     -moz-animation-duration: 1.8s;
     -ms-animation-duration: 1.8s;
+    -o-animation-duration: 1.8s;
     animation-duration: 1.8s;
     -webkit-animation-timing-function: linear;
     -moz-animation-timing-function: linear;
     -ms-animation-timing-function: linear;
+    -o-animation-timing-function: linear;
     animation-timing-function: linear;
     -webkit-animation-iteration-count: 1;
     -moz-animation-iteration-count: 1;
     -ms-animation-iteration-count: 1;
+    -o-animation-iteration-count: 1;
     animation-iteration-count: 1;
     -webkit-animation-delay: 0s;
     -moz-animation-delay: 0s;
     -ms-animation-delay: 0s;
+    -o-animation-delay: 0s;
     animation-delay: 0s;
   }
   .startAnim .mario {
@@ -1630,34 +1663,41 @@ body {
     -webkit-animation-name: mario-jump-second, mario-sprite-jump-2, mario-grow;
     -moz-animation-name: mario-jump-second, mario-sprite-jump-2, mario-grow;
     -ms-animation-name: mario-jump-second, mario-sprite-jump-2, mario-grow;
+    -o-animation-name: mario-jump-second, mario-sprite-jump-2, mario-grow;
     animation-name: mario-jump-second, mario-sprite-jump-2, mario-grow;
     -webkit-animation-duration: 1400ms, 1400ms, 180ms;
     -moz-animation-duration: 1400ms, 1400ms, 180ms;
     -ms-animation-duration: 1400ms, 1400ms, 180ms;
+    -o-animation-duration: 1400ms, 1400ms, 180ms;
     animation-duration: 1400ms, 1400ms, 180ms;
     -webkit-animation-timing-function: linear, step-end, step-end;
     -moz-animation-timing-function: linear, step-end, step-end;
     -ms-animation-timing-function: linear, step-end, step-end;
+    -o-animation-timing-function: linear, step-end, step-end;
     animation-timing-function: linear, step-end, step-end;
     -webkit-animation-iteration-count: 1, 1, 5;
     -moz-animation-iteration-count: 1, 1, 5;
     -ms-animation-iteration-count: 1, 1, 5;
+    -o-animation-iteration-count: 1, 1, 5;
     animation-iteration-count: 1, 1, 5;
     -webkit-animation-delay: 0s, 0s, 1400ms;
     -moz-animation-delay: 0s, 0s, 1400ms;
     -ms-animation-delay: 0s, 0s, 1400ms;
+    -o-animation-delay: 0s, 0s, 1400ms;
     animation-delay: 0s, 0s, 1400ms;
   }
   .startAnim .mushroom {
     -webkit-animation: mushroom-reveal 600ms 800ms linear;
     -moz-animation: mushroom-reveal 600ms 800ms linear;
     -ms-animation: mushroom-reveal 600ms 800ms linear;
+    -o-animation: mushroom-reveal 600ms 800ms linear;
     animation: mushroom-reveal 600ms 800ms linear;
   }
   .startAnim .qbox4 {
     -webkit-animation: qbox-up-qbox4 80ms 600ms linear;
     -moz-animation: qbox-up-qbox4 80ms 600ms linear;
     -ms-animation: qbox-up-qbox4 80ms 600ms linear;
+    -o-animation: qbox-up-qbox4 80ms 600ms linear;
     animation: qbox-up-qbox4 80ms 600ms linear;
   }
 }
@@ -1667,22 +1707,27 @@ body {
     -webkit-animation-name: stagemove-third;
     -moz-animation-name: stagemove-third;
     -ms-animation-name: stagemove-third;
+    -o-animation-name: stagemove-third;
     animation-name: stagemove-third;
     -webkit-animation-duration: 2s;
     -moz-animation-duration: 2s;
     -ms-animation-duration: 2s;
+    -o-animation-duration: 2s;
     animation-duration: 2s;
     -webkit-animation-timing-function: linear;
     -moz-animation-timing-function: linear;
     -ms-animation-timing-function: linear;
+    -o-animation-timing-function: linear;
     animation-timing-function: linear;
     -webkit-animation-iteration-count: 1;
     -moz-animation-iteration-count: 1;
     -ms-animation-iteration-count: 1;
+    -o-animation-iteration-count: 1;
     animation-iteration-count: 1;
     -webkit-animation-delay: 0s;
     -moz-animation-delay: 0s;
     -ms-animation-delay: 0s;
+    -o-animation-delay: 0s;
     animation-delay: 0s;
   }
   .startAnim .mario {
@@ -1690,90 +1735,110 @@ body {
     -webkit-animation-name: mario-run-second, mario-jump-third, mario-jump-qbox, mario-run-sprite-second;
     -moz-animation-name: mario-run-second, mario-jump-third, mario-jump-qbox, mario-run-sprite-second;
     -ms-animation-name: mario-run-second, mario-jump-third, mario-jump-qbox, mario-run-sprite-second;
+    -o-animation-name: mario-run-second, mario-jump-third, mario-jump-qbox, mario-run-sprite-second;
     animation-name: mario-run-second, mario-jump-third, mario-jump-qbox, mario-run-sprite-second;
     -webkit-animation-duration: 400ms, 800ms, 400ms, 1700ms;
     -moz-animation-duration: 400ms, 800ms, 400ms, 1700ms;
     -ms-animation-duration: 400ms, 800ms, 400ms, 1700ms;
+    -o-animation-duration: 400ms, 800ms, 400ms, 1700ms;
     animation-duration: 400ms, 800ms, 400ms, 1700ms;
     -webkit-animation-timing-function: linear, linear, linear, step-end;
     -moz-animation-timing-function: linear, linear, linear, step-end;
     -ms-animation-timing-function: linear, linear, linear, step-end;
+    -o-animation-timing-function: linear, linear, linear, step-end;
     animation-timing-function: linear, linear, linear, step-end;
     -webkit-animation-iteration-count: 1, 1, 1, 1;
     -moz-animation-iteration-count: 1, 1, 1, 1;
     -ms-animation-iteration-count: 1, 1, 1, 1;
+    -o-animation-iteration-count: 1, 1, 1, 1;
     animation-iteration-count: 1, 1, 1, 1;
     -webkit-animation-delay: 0s, 500ms, 1300ms, 0s;
     -moz-animation-delay: 0s, 500ms, 1300ms, 0s;
     -ms-animation-delay: 0s, 500ms, 1300ms, 0s;
+    -o-animation-delay: 0s, 500ms, 1300ms, 0s;
     animation-delay: 0s, 500ms, 1300ms, 0s;
   }
   .startAnim .qbox5 {
     -webkit-animation: qbox-up-qbox5 80ms 1400ms linear;
     -moz-animation: qbox-up-qbox5 80ms 1400ms linear;
     -ms-animation: qbox-up-qbox5 80ms 1400ms linear;
+    -o-animation: qbox-up-qbox5 80ms 1400ms linear;
     animation: qbox-up-qbox5 80ms 1400ms linear;
   }
   .startAnim .coin3 {
     -webkit-animation-name: coinup-two;
     -moz-animation-name: coinup-two;
     -ms-animation-name: coinup-two;
+    -o-animation-name: coinup-two;
     animation-name: coinup-two;
     -webkit-animation-duration: 300ms;
     -moz-animation-duration: 300ms;
     -ms-animation-duration: 300ms;
+    -o-animation-duration: 300ms;
     animation-duration: 300ms;
     -webkit-animation-timing-function: ease-in-out;
     -moz-animation-timing-function: ease-in-out;
     -ms-animation-timing-function: ease-in-out;
+    -o-animation-timing-function: ease-in-out;
     animation-timing-function: ease-in-out;
     -webkit-animation-iteration-count: 1;
     -moz-animation-iteration-count: 1;
     -ms-animation-iteration-count: 1;
+    -o-animation-iteration-count: 1;
     animation-iteration-count: 1;
     -webkit-animation-delay: 1400ms;
     -moz-animation-delay: 1400ms;
     -ms-animation-delay: 1400ms;
+    -o-animation-delay: 1400ms;
     animation-delay: 1400ms;
   }
   .startAnim .fireball {
     -webkit-animation-name: fireball-rotate, fireball-move;
     -moz-animation-name: fireball-rotate, fireball-move;
     -ms-animation-name: fireball-rotate, fireball-move;
+    -o-animation-name: fireball-rotate, fireball-move;
     animation-name: fireball-rotate, fireball-move;
     -webkit-animation-duration: 800ms, 5000ms;
     -moz-animation-duration: 800ms, 5000ms;
     -ms-animation-duration: 800ms, 5000ms;
+    -o-animation-duration: 800ms, 5000ms;
     animation-duration: 800ms, 5000ms;
     -webkit-animation-timing-function: linear, linear;
     -moz-animation-timing-function: linear, linear;
     -ms-animation-timing-function: linear, linear;
+    -o-animation-timing-function: linear, linear;
     animation-timing-function: linear, linear;
     -webkit-animation-iteration-count: infinite, 1;
     -moz-animation-iteration-count: infinite, 1;
     -ms-animation-iteration-count: infinite, 1;
+    -o-animation-iteration-count: infinite, 1;
     animation-iteration-count: infinite, 1;
   }
   .startAnim .piranha {
     -webkit-animation-name: piranha-move;
     -moz-animation-name: piranha-move;
     -ms-animation-name: piranha-move;
+    -o-animation-name: piranha-move;
     animation-name: piranha-move;
     -webkit-animation-duration: 1000ms;
     -moz-animation-duration: 1000ms;
     -ms-animation-duration: 1000ms;
+    -o-animation-duration: 1000ms;
     animation-duration: 1000ms;
     -webkit-animation-timing-function: linear;
     -moz-animation-timing-function: linear;
     -ms-animation-timing-function: linear;
+    -o-animation-timing-function: linear;
     animation-timing-function: linear;
     -webkit-animation-iteration-count: 1;
     -moz-animation-iteration-count: 1;
     -ms-animation-iteration-count: 1;
+    -o-animation-iteration-count: 1;
     animation-iteration-count: 1;
     -webkit-animation-delay: 2000ms;
     -moz-animation-delay: 2000ms;
     -ms-animation-delay: 2000ms;
+    -o-animation-delay: 2000ms;
     animation-delay: 2000ms;
   }
 }
@@ -1783,44 +1848,54 @@ body {
     -webkit-animation-name: stagemove-fourth;
     -moz-animation-name: stagemove-fourth;
     -ms-animation-name: stagemove-fourth;
+    -o-animation-name: stagemove-fourth;
     animation-name: stagemove-fourth;
     -webkit-animation-duration: 2s;
     -moz-animation-duration: 2s;
     -ms-animation-duration: 2s;
+    -o-animation-duration: 2s;
     animation-duration: 2s;
     -webkit-animation-timing-function: linear;
     -moz-animation-timing-function: linear;
     -ms-animation-timing-function: linear;
+    -o-animation-timing-function: linear;
     animation-timing-function: linear;
     -webkit-animation-iteration-count: 1;
     -moz-animation-iteration-count: 1;
     -ms-animation-iteration-count: 1;
+    -o-animation-iteration-count: 1;
     animation-iteration-count: 1;
     -webkit-animation-delay: 0s;
     -moz-animation-delay: 0s;
     -ms-animation-delay: 0s;
+    -o-animation-delay: 0s;
     animation-delay: 0s;
   }
   .startAnim .enemy3 {
     -webkit-animation-name: enemy-third;
     -moz-animation-name: enemy-third;
     -ms-animation-name: enemy-third;
+    -o-animation-name: enemy-third;
     animation-name: enemy-third;
     -webkit-animation-duration: 2s;
     -moz-animation-duration: 2s;
     -ms-animation-duration: 2s;
+    -o-animation-duration: 2s;
     animation-duration: 2s;
     -webkit-animation-timing-function: linear;
     -moz-animation-timing-function: linear;
     -ms-animation-timing-function: linear;
+    -o-animation-timing-function: linear;
     animation-timing-function: linear;
     -webkit-animation-iteration-count: 1;
     -moz-animation-iteration-count: 1;
     -ms-animation-iteration-count: 1;
+    -o-animation-iteration-count: 1;
     animation-iteration-count: 1;
     -webkit-animation-delay: 0s;
     -moz-animation-delay: 0s;
     -ms-animation-delay: 0s;
+    -o-animation-delay: 0s;
     animation-delay: 0s;
   }
   .startAnim .mario {
@@ -1828,44 +1903,54 @@ body {
     -webkit-animation-name: mario-jump-fourth, mario-sprite-jump-fourth, mario-turtle-hit, mario-sprite-turtle-hit;
     -moz-animation-name: mario-jump-fourth, mario-sprite-jump-fourth, mario-turtle-hit, mario-sprite-turtle-hit;
     -ms-animation-name: mario-jump-fourth, mario-sprite-jump-fourth, mario-turtle-hit, mario-sprite-turtle-hit;
+    -o-animation-name: mario-jump-fourth, mario-sprite-jump-fourth, mario-turtle-hit, mario-sprite-turtle-hit;
     animation-name: mario-jump-fourth, mario-sprite-jump-fourth, mario-turtle-hit, mario-sprite-turtle-hit;
     -webkit-animation-duration: 700ms, 700ms, 1s, 1s;
     -moz-animation-duration: 700ms, 700ms, 1s, 1s;
     -ms-animation-duration: 700ms, 700ms, 1s, 1s;
+    -o-animation-duration: 700ms, 700ms, 1s, 1s;
     animation-duration: 700ms, 700ms, 1s, 1s;
     -webkit-animation-timing-function: linear, step-end, linear, step-end;
     -moz-animation-timing-function: linear, step-end, linear, step-end;
     -ms-animation-timing-function: linear, step-end, linear, step-end;
+    -o-animation-timing-function: linear, step-end, linear, step-end;
     animation-timing-function: linear, step-end, linear, step-end;
     -webkit-animation-iteration-count: 1, 1, 1, 1;
     -moz-animation-iteration-count: 1, 1, 1, 1;
     -ms-animation-iteration-count: 1, 1, 1, 1;
+    -o-animation-iteration-count: 1, 1, 1, 1;
     animation-iteration-count: 1, 1, 1, 1;
     -webkit-animation-delay: 0s, 0s, 700ms, 700ms;
     -moz-animation-delay: 0s, 0s, 700ms, 700ms;
     -ms-animation-delay: 0s, 0s, 700ms, 700ms;
+    -o-animation-delay: 0s, 0s, 700ms, 700ms;
     animation-delay: 0s, 0s, 700ms, 700ms;
   }
   .startAnim .enemy4 {
     -webkit-animation-name: turtle-walk, turtle-sprite;
     -moz-animation-name: turtle-walk, turtle-sprite;
     -ms-animation-name: turtle-walk, turtle-sprite;
+    -o-animation-name: turtle-walk, turtle-sprite;
     animation-name: turtle-walk, turtle-sprite;
     -webkit-animation-duration: 1.3s, 1.3s;
     -moz-animation-duration: 1.3s, 1.3s;
     -ms-animation-duration: 1.3s, 1.3s;
+    -o-animation-duration: 1.3s, 1.3s;
     animation-duration: 1.3s, 1.3s;
     -webkit-animation-timing-function: linear, step-end;
     -moz-animation-timing-function: linear, step-end;
     -ms-animation-timing-function: linear, step-end;
+    -o-animation-timing-function: linear, step-end;
     animation-timing-function: linear, step-end;
     -webkit-animation-iteration-count: 1, 1;
     -moz-animation-iteration-count: 1, 1;
     -ms-animation-iteration-count: 1, 1;
+    -o-animation-iteration-count: 1, 1;
     animation-iteration-count: 1, 1;
     -webkit-animation-delay: 0s, 0s;
     -moz-animation-delay: 0s, 0s;
     -ms-animation-delay: 0s, 0s;
+    -o-animation-delay: 0s, 0s;
     animation-delay: 0s, 0s;
   }
 }
@@ -1875,22 +1960,27 @@ body {
     -webkit-animation-name: stagemove-fifth;
     -moz-animation-name: stagemove-fifth;
     -ms-animation-name: stagemove-fifth;
+    -o-animation-name: stagemove-fifth;
     animation-name: stagemove-fifth;
     -webkit-animation-duration: 400ms;
     -moz-animation-duration: 400ms;
     -ms-animation-duration: 400ms;
+    -o-animation-duration: 400ms;
     animation-duration: 400ms;
     -webkit-animation-timing-function: linear;
     -moz-animation-timing-function: linear;
     -ms-animation-timing-function: linear;
+    -o-animation-timing-function: linear;
     animation-timing-function: linear;
     -webkit-animation-iteration-count: 1;
     -moz-animation-iteration-count: 1;
     -ms-animation-iteration-count: 1;
+    -o-animation-iteration-count: 1;
     animation-iteration-count: 1;
     -webkit-animation-delay: 1.5s;
     -moz-animation-delay: 1.5s;
     -ms-animation-delay: 1.5s;
+    -o-animation-delay: 1.5s;
     animation-delay: 1.5s;
   }
   .startAnim .mario {
@@ -1898,44 +1988,54 @@ body {
     -webkit-animation-name: mario-kick-shell, mario-sprite-kick-shell, mario-jump-fifth, mario-racoon-change, mario-sprite-jump-fifth;
     -moz-animation-name: mario-kick-shell, mario-sprite-kick-shell, mario-jump-fifth, mario-racoon-change, mario-sprite-jump-fifth;
     -ms-animation-name: mario-kick-shell, mario-sprite-kick-shell, mario-jump-fifth, mario-racoon-change, mario-sprite-jump-fifth;
+    -o-animation-name: mario-kick-shell, mario-sprite-kick-shell, mario-jump-fifth, mario-racoon-change, mario-sprite-jump-fifth;
     animation-name: mario-kick-shell, mario-sprite-kick-shell, mario-jump-fifth, mario-racoon-change, mario-sprite-jump-fifth;
     -webkit-animation-duration: 100ms, 100ms, 600ms, 1s, 1.8s;
     -moz-animation-duration: 100ms, 100ms, 600ms, 1s, 1.8s;
     -ms-animation-duration: 100ms, 100ms, 600ms, 1s, 1.8s;
+    -o-animation-duration: 100ms, 100ms, 600ms, 1s, 1.8s;
     animation-duration: 100ms, 100ms, 600ms, 1s, 1.8s;
     -webkit-animation-timing-function: linear, step-end, linear, linear, step-end;
     -moz-animation-timing-function: linear, step-end, linear, linear, step-end;
     -ms-animation-timing-function: linear, step-end, linear, linear, step-end;
+    -o-animation-timing-function: linear, step-end, linear, linear, step-end;
     animation-timing-function: linear, step-end, linear, linear, step-end;
     -webkit-animation-iteration-count: 1, 1, 1, 1, 1;
     -moz-animation-iteration-count: 1, 1, 1, 1, 1;
     -ms-animation-iteration-count: 1, 1, 1, 1, 1;
+    -o-animation-iteration-count: 1, 1, 1, 1, 1;
     animation-iteration-count: 1, 1, 1, 1, 1;
     -webkit-animation-delay: 0s, 0s, 100ms, 800ms, 100ms;
     -moz-animation-delay: 0s, 0s, 100ms, 800ms, 100ms;
     -ms-animation-delay: 0s, 0s, 100ms, 800ms, 100ms;
+    -o-animation-delay: 0s, 0s, 100ms, 800ms, 100ms;
     animation-delay: 0s, 0s, 100ms, 800ms, 100ms;
   }
   .startAnim .enemy3 {
     -webkit-animation-name: enemy-third-continued;
     -moz-animation-name: enemy-third-continued;
     -ms-animation-name: enemy-third-continued;
+    -o-animation-name: enemy-third-continued;
     animation-name: enemy-third-continued;
     -webkit-animation-duration: 2s;
     -moz-animation-duration: 2s;
     -ms-animation-duration: 2s;
+    -o-animation-duration: 2s;
     animation-duration: 2s;
     -webkit-animation-timing-function: linear;
     -moz-animation-timing-function: linear;
     -ms-animation-timing-function: linear;
+    -o-animation-timing-function: linear;
     animation-timing-function: linear;
     -webkit-animation-iteration-count: 1;
     -moz-animation-iteration-count: 1;
     -ms-animation-iteration-count: 1;
+    -o-animation-iteration-count: 1;
     animation-iteration-count: 1;
     -webkit-animation-delay: 0ms;
     -moz-animation-delay: 0ms;
     -ms-animation-delay: 0ms;
+    -o-animation-delay: 0ms;
     animation-delay: 0ms;
   }
   .startAnim .enemy4 {
@@ -1945,34 +2045,41 @@ body {
     -webkit-animation-name: turtle-hit-qbox, turtle-rotate;
     -moz-animation-name: turtle-hit-qbox, turtle-rotate;
     -ms-animation-name: turtle-hit-qbox, turtle-rotate;
+    -o-animation-name: turtle-hit-qbox, turtle-rotate;
     animation-name: turtle-hit-qbox, turtle-rotate;
     -webkit-animation-duration: 2s, 200ms;
     -moz-animation-duration: 2s, 200ms;
     -ms-animation-duration: 2s, 200ms;
+    -o-animation-duration: 2s, 200ms;
     animation-duration: 2s, 200ms;
     -webkit-animation-timing-function: linear, step-end;
     -moz-animation-timing-function: linear, step-end;
     -ms-animation-timing-function: linear, step-end;
+    -o-animation-timing-function: linear, step-end;
     animation-timing-function: linear, step-end;
     -webkit-animation-iteration-count: 1, infinite;
     -moz-animation-iteration-count: 1, infinite;
     -ms-animation-iteration-count: 1, infinite;
+    -o-animation-iteration-count: 1, infinite;
     animation-iteration-count: 1, infinite;
     -webkit-animation-delay: 100ms, 100ms;
     -moz-animation-delay: 100ms, 100ms;
     -ms-animation-delay: 100ms, 100ms;
+    -o-animation-delay: 100ms, 100ms;
     animation-delay: 100ms, 100ms;
   }
   .startAnim .qbox6 {
     -webkit-animation: qbox-hit-qbox6 80ms 500ms linear;
     -moz-animation: qbox-hit-qbox6 80ms 500ms linear;
     -ms-animation: qbox-hit-qbox6 80ms 500ms linear;
+    -o-animation: qbox-hit-qbox6 80ms 500ms linear;
     animation: qbox-hit-qbox6 80ms 500ms linear;
   }
   .startAnim .racoon-leaf {
     -webkit-animation: leaf-up 200ms 500ms ease-out;
     -moz-animation: leaf-up 200ms 500ms ease-out;
     -ms-animation: leaf-up 200ms 500ms ease-out;
+    -o-animation: leaf-up 200ms 500ms ease-out;
     animation: leaf-up 200ms 500ms ease-out;
   }
 }
@@ -1982,22 +2089,27 @@ body {
     -webkit-animation-name: stagemove-sixth;
     -moz-animation-name: stagemove-sixth;
     -ms-animation-name: stagemove-sixth;
+    -o-animation-name: stagemove-sixth;
     animation-name: stagemove-sixth;
     -webkit-animation-duration: 2s;
     -moz-animation-duration: 2s;
     -ms-animation-duration: 2s;
+    -o-animation-duration: 2s;
     animation-duration: 2s;
     -webkit-animation-timing-function: linear;
     -moz-animation-timing-function: linear;
     -ms-animation-timing-function: linear;
+    -o-animation-timing-function: linear;
     animation-timing-function: linear;
     -webkit-animation-iteration-count: 1;
     -moz-animation-iteration-count: 1;
     -ms-animation-iteration-count: 1;
+    -o-animation-iteration-count: 1;
     animation-iteration-count: 1;
     -webkit-animation-delay: 0s;
     -moz-animation-delay: 0s;
     -ms-animation-delay: 0s;
+    -o-animation-delay: 0s;
     animation-delay: 0s;
   }
   .startAnim .mario {
@@ -2005,116 +2117,142 @@ body {
     -webkit-animation-name: mario-jump-sixth, mario-jump-seventh, mario-jump-seventh-sprite;
     -moz-animation-name: mario-jump-sixth, mario-jump-seventh, mario-jump-seventh-sprite;
     -ms-animation-name: mario-jump-sixth, mario-jump-seventh, mario-jump-seventh-sprite;
+    -o-animation-name: mario-jump-sixth, mario-jump-seventh, mario-jump-seventh-sprite;
     animation-name: mario-jump-sixth, mario-jump-seventh, mario-jump-seventh-sprite;
     -webkit-animation-duration: 500ms, 2s, 2s;
     -moz-animation-duration: 500ms, 2s, 2s;
     -ms-animation-duration: 500ms, 2s, 2s;
+    -o-animation-duration: 500ms, 2s, 2s;
     animation-duration: 500ms, 2s, 2s;
     -webkit-animation-timing-function: linear, linear, step-end;
     -moz-animation-timing-function: linear, linear, step-end;
     -ms-animation-timing-function: linear, linear, step-end;
+    -o-animation-timing-function: linear, linear, step-end;
     animation-timing-function: linear, linear, step-end;
     -webkit-animation-iteration-count: 1, 1, 1;
     -moz-animation-iteration-count: 1, 1, 1;
     -ms-animation-iteration-count: 1, 1, 1;
+    -o-animation-iteration-count: 1, 1, 1;
     animation-iteration-count: 1, 1, 1;
     -webkit-animation-delay: 0s, 500ms, 500ms;
     -moz-animation-delay: 0s, 500ms, 500ms;
     -ms-animation-delay: 0s, 500ms, 500ms;
+    -o-animation-delay: 0s, 500ms, 500ms;
     animation-delay: 0s, 500ms, 500ms;
   }
   .startAnim .qbox7 {
     -webkit-animation: qbox-up-qbox7 80ms 200ms linear;
     -moz-animation: qbox-up-qbox7 80ms 200ms linear;
     -ms-animation: qbox-up-qbox7 80ms 200ms linear;
+    -o-animation: qbox-up-qbox7 80ms 200ms linear;
     animation: qbox-up-qbox7 80ms 200ms linear;
   }
   .startAnim .coin4 {
     -webkit-animation-name: coinup-four;
     -moz-animation-name: coinup-four;
     -ms-animation-name: coinup-four;
+    -o-animation-name: coinup-four;
     animation-name: coinup-four;
     -webkit-animation-duration: 300ms;
     -moz-animation-duration: 300ms;
     -ms-animation-duration: 300ms;
+    -o-animation-duration: 300ms;
     animation-duration: 300ms;
     -webkit-animation-timing-function: ease-in-out;
     -moz-animation-timing-function: ease-in-out;
     -ms-animation-timing-function: ease-in-out;
+    -o-animation-timing-function: ease-in-out;
     animation-timing-function: ease-in-out;
     -webkit-animation-iteration-count: 1;
     -moz-animation-iteration-count: 1;
     -ms-animation-iteration-count: 1;
+    -o-animation-iteration-count: 1;
     animation-iteration-count: 1;
     -webkit-animation-delay: 200ms;
     -moz-animation-delay: 200ms;
     -ms-animation-delay: 200ms;
+    -o-animation-delay: 200ms;
     animation-delay: 200ms;
   }
   .startAnim .enemy5 {
     -webkit-animation-name: enemy-fifth, goomba-dead;
     -moz-animation-name: enemy-fifth, goomba-dead;
     -ms-animation-name: enemy-fifth, goomba-dead;
+    -o-animation-name: enemy-fifth, goomba-dead;
     animation-name: enemy-fifth, goomba-dead;
     -webkit-animation-duration: 1000ms, 800ms;
     -moz-animation-duration: 1000ms, 800ms;
     -ms-animation-duration: 1000ms, 800ms;
+    -o-animation-duration: 1000ms, 800ms;
     animation-duration: 1000ms, 800ms;
     -webkit-animation-timing-function: linear, step-end;
     -moz-animation-timing-function: linear, step-end;
     -ms-animation-timing-function: linear, step-end;
+    -o-animation-timing-function: linear, step-end;
     animation-timing-function: linear, step-end;
     -webkit-animation-iteration-count: 1, 1;
     -moz-animation-iteration-count: 1, 1;
     -ms-animation-iteration-count: 1, 1;
+    -o-animation-iteration-count: 1, 1;
     animation-iteration-count: 1, 1;
     -webkit-animation-delay: 0s, 1000ms;
     -moz-animation-delay: 0s, 1000ms;
     -ms-animation-delay: 0s, 1000ms;
+    -o-animation-delay: 0s, 1000ms;
     animation-delay: 0s, 1000ms;
   }
   .startAnim .enemy6 {
     -webkit-animation-name: enemy-sixth, goomba-dead;
     -moz-animation-name: enemy-sixth, goomba-dead;
     -ms-animation-name: enemy-sixth, goomba-dead;
+    -o-animation-name: enemy-sixth, goomba-dead;
     animation-name: enemy-sixth, goomba-dead;
     -webkit-animation-duration: 1400ms, 800ms;
     -moz-animation-duration: 1400ms, 800ms;
     -ms-animation-duration: 1400ms, 800ms;
+    -o-animation-duration: 1400ms, 800ms;
     animation-duration: 1400ms, 800ms;
     -webkit-animation-timing-function: linear, step-end;
     -moz-animation-timing-function: linear, step-end;
     -ms-animation-timing-function: linear, step-end;
+    -o-animation-timing-function: linear, step-end;
     animation-timing-function: linear, step-end;
     -webkit-animation-iteration-count: 1, 1;
     -moz-animation-iteration-count: 1, 1;
     -ms-animation-iteration-count: 1, 1;
+    -o-animation-iteration-count: 1, 1;
     animation-iteration-count: 1, 1;
     -webkit-animation-delay: 0s, 1400ms;
     -moz-animation-delay: 0s, 1400ms;
     -ms-animation-delay: 0s, 1400ms;
+    -o-animation-delay: 0s, 1400ms;
     animation-delay: 0s, 1400ms;
   }
   .startAnim .enemy7 {
     -webkit-animation-name: enemy-seventh, enemy-seventh-sprite, enemy-seventh-dead;
     -moz-animation-name: enemy-seventh, enemy-seventh-sprite, enemy-seventh-dead;
     -ms-animation-name: enemy-seventh, enemy-seventh-sprite, enemy-seventh-dead;
+    -o-animation-name: enemy-seventh, enemy-seventh-sprite, enemy-seventh-dead;
     animation-name: enemy-seventh, enemy-seventh-sprite, enemy-seventh-dead;
     -webkit-animation-duration: 2600ms, 2600ms, 700ms;
     -moz-animation-duration: 2600ms, 2600ms, 700ms;
     -ms-animation-duration: 2600ms, 2600ms, 700ms;
+    -o-animation-duration: 2600ms, 2600ms, 700ms;
     animation-duration: 2600ms, 2600ms, 700ms;
     -webkit-animation-timing-function: linear, step-end, linear;
     -moz-animation-timing-function: linear, step-end, linear;
     -ms-animation-timing-function: linear, step-end, linear;
+    -o-animation-timing-function: linear, step-end, linear;
     animation-timing-function: linear, step-end, linear;
     -webkit-animation-iteration-count: 1, 1, 1;
     -moz-animation-iteration-count: 1, 1, 1;
     -ms-animation-iteration-count: 1, 1, 1;
+    -o-animation-iteration-count: 1, 1, 1;
     animation-iteration-count: 1, 1, 1;
     -webkit-animation-delay: 0s, 0s, 2500ms;
     -moz-animation-delay: 0s, 0s, 2500ms;
     -ms-animation-delay: 0s, 0s, 2500ms;
+    -o-animation-delay: 0s, 0s, 2500ms;
     animation-delay: 0s, 0s, 2500ms;
   }
 }
@@ -2124,46 +2262,55 @@ body {
     -webkit-animation-name: mario-sprint, mario-sprite-sprint, mario-sprite-sprint-trans, mario-sprint2, mario-sprite-sprint2, mario-flight-sprite, mario-flight, mario-in-flight;
     -moz-animation-name: mario-sprint, mario-sprite-sprint, mario-sprite-sprint-trans, mario-sprint2, mario-sprite-sprint2, mario-flight-sprite, mario-flight, mario-in-flight;
     -ms-animation-name: mario-sprint, mario-sprite-sprint, mario-sprite-sprint-trans, mario-sprint2, mario-sprite-sprint2, mario-flight-sprite, mario-flight, mario-in-flight;
+    -o-animation-name: mario-sprint, mario-sprite-sprint, mario-sprite-sprint-trans, mario-sprint2, mario-sprite-sprint2, mario-flight-sprite, mario-flight, mario-in-flight;
     animation-name: mario-sprint, mario-sprite-sprint, mario-sprite-sprint-trans, mario-sprint2, mario-sprite-sprint2, mario-flight-sprite, mario-flight, mario-in-flight;
     -webkit-animation-duration: 2s, 200ms, 400ms, 1s, 200ms, 200ms, 4s, 200ms;
     -moz-animation-duration: 2s, 200ms, 400ms, 1s, 200ms, 200ms, 4s, 200ms;
     -ms-animation-duration: 2s, 200ms, 400ms, 1s, 200ms, 200ms, 4s, 200ms;
+    -o-animation-duration: 2s, 200ms, 400ms, 1s, 200ms, 200ms, 4s, 200ms;
     animation-duration: 2s, 200ms, 400ms, 1s, 200ms, 200ms, 4s, 200ms;
     -webkit-animation-timing-function: linear, step-end, step-end, linear, step-end, step-end, linear, step-end;
     -moz-animation-timing-function: linear, step-end, step-end, linear, step-end, step-end, linear, step-end;
     -ms-animation-timing-function: linear, step-end, step-end, linear, step-end, step-end, linear, step-end;
+    -o-animation-timing-function: linear, step-end, step-end, linear, step-end, step-end, linear, step-end;
     animation-timing-function: linear, step-end, step-end, linear, step-end, step-end, linear, step-end;
     -webkit-animation-iteration-count: 1, 7, 1, 1, 3, 6, 1, infinite;
     -moz-animation-iteration-count: 1, 7, 1, 1, 3, 6, 1, infinite;
     -ms-animation-iteration-count: 1, 7, 1, 1, 3, 6, 1, infinite;
+    -o-animation-iteration-count: 1, 7, 1, 1, 3, 6, 1, infinite;
     animation-iteration-count: 1, 7, 1, 1, 3, 6, 1, infinite;
     -webkit-animation-delay: 0s, 0s, 1200ms, 2000ms, 1600ms, 2200ms, 3000ms, 3000ms;
     -moz-animation-delay: 0s, 0s, 1200ms, 2000ms, 1600ms, 2200ms, 3000ms, 3000ms;
     -ms-animation-delay: 0s, 0s, 1200ms, 2000ms, 1600ms, 2200ms, 3000ms, 3000ms;
+    -o-animation-delay: 0s, 0s, 1200ms, 2000ms, 1600ms, 2200ms, 3000ms, 3000ms;
     animation-delay: 0s, 0s, 1200ms, 2000ms, 1600ms, 2200ms, 3000ms, 3000ms;
   }
   .startAnim .coin5 {
     -webkit-animation: coin-disappear 80ms 3700ms step-end;
     -moz-animation: coin-disappear 80ms 3700ms step-end;
     -ms-animation: coin-disappear 80ms 3700ms step-end;
+    -o-animation: coin-disappear 80ms 3700ms step-end;
     animation: coin-disappear 80ms 3700ms step-end;
   }
   .startAnim .coin6 {
     -webkit-animation: coin-disappear 80ms 4050ms step-end;
     -moz-animation: coin-disappear 80ms 4050ms step-end;
     -ms-animation: coin-disappear 80ms 4050ms step-end;
+    -o-animation: coin-disappear 80ms 4050ms step-end;
     animation: coin-disappear 80ms 4050ms step-end;
   }
   .startAnim .coin7 {
     -webkit-animation: coin-disappear 80ms 4400ms step-end;
     -moz-animation: coin-disappear 80ms 4400ms step-end;
     -ms-animation: coin-disappear 80ms 4400ms step-end;
+    -o-animation: coin-disappear 80ms 4400ms step-end;
     animation: coin-disappear 80ms 4400ms step-end;
   }
   .startAnim .coin8 {
     -webkit-animation: coin-disappear 80ms 4750ms step-end;
     -moz-animation: coin-disappear 80ms 4750ms step-end;
     -ms-animation: coin-disappear 80ms 4750ms step-end;
+    -o-animation: coin-disappear 80ms 4750ms step-end;
     animation: coin-disappear 80ms 4750ms step-end;
   }
 }
@@ -2178,8 +2325,11 @@ body {
 .startAnim .coin,
 .startAnim .racoon-leaf,
 .startAnim .qbox-sprite {
-  -moz-animation-fill-mode: forwards;
   -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  -ms-animation-fill-mode: forwards;
+  -o-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
 }
 @-webkit-keyframes flat-mario {
   0% {
@@ -6068,6 +6218,1304 @@ body {
   }
 }
 @-ms-keyframes coin-disappear {
+  0% {
+    background-position: 1000px 10000px;
+  }
+  100% {
+    background-position: 1000px 10000px;
+  }
+}
+@keyframes flat-mario {
+  0% {
+    left: 8.5%;
+  }
+  20% {
+    left: 22.5%;
+    top: 20%;
+  }
+  35% {
+    left: 22.5%;
+    top: 20%;
+  }
+  55% {
+    left: 22.5%;
+    top: 1%;
+  }
+  100% {
+    left: 22.5%;
+    top: 1%;
+  }
+}
+@keyframes stagemove-first {
+  0% {
+    left: 0;
+  }
+  4% {
+    left: -80px;
+  }
+  8% {
+    left: -150px;
+  }
+  10% {
+    left: -180px;
+  }
+  100% {
+    left: -180px;
+  }
+}
+@keyframes mario-sprite-walk {
+  0% {
+    background-position: 0 top;
+  }
+  50% {
+    background-position: -63px top;
+  }
+}
+@keyframes mario-sprite-walk-large {
+  0% {
+    background-position: 0 -179px;
+  }
+  50% {
+    background-position: -140px -179px;
+  }
+  100% {
+    background-position: -140px -179px;
+  }
+}
+@keyframes mario-sprite-jump {
+  0% {
+    background-position: -198px top;
+  }
+  30% {
+    background-position: -198px top;
+    -webkit-transform: scalex(-1);
+    -moz-transform: scalex(-1);
+    -o-transform: scalex(-1);
+    transform: scalex(-1);
+  }
+  31% {
+    background-position: -198px top;
+    -webkit-transform: scalex(1);
+    -moz-transform: scalex(1);
+    -o-transform: scalex(1);
+    transform: scalex(1);
+  }
+  100% {
+    background-position: 0 top;
+    -webkit-transform: scalex(-1);
+    -moz-transform: scalex(-1);
+    -o-transform: scalex(-1);
+    transform: scalex(-1);
+  }
+}
+@keyframes mario-run-first {
+  0% {
+    left: 10px;
+  }
+  100% {
+    left: 318px;
+  }
+}
+@keyframes mario-jump-first {
+  0% {
+    bottom: 30px;
+    left: 330px;
+  }
+  30% {
+    bottom: 110px;
+    left: 390px;
+  }
+  50% {
+    bottom: 43px;
+    left: 400px;
+  }
+  75% {
+    bottom: 110px;
+    left: 440px;
+  }
+  100% {
+    bottom: 28px;
+    left: 445px;
+  }
+}
+@keyframes qbox-up-lower {
+  0% {
+    bottom: 128px;
+    zoom: 1;
+    filter: alpha(opacity=65);
+    opacity: 0;
+  }
+  50% {
+    bottom: 142px;
+    zoom: 1;
+    filter: alpha(opacity=65);
+    opacity: 1;
+  }
+  100% {
+    bottom: 128px;
+    zoom: 1;
+    filter: alpha(opacity=65);
+    opacity: 1;
+  }
+}
+@keyframes coinup {
+  0% {
+    bottom: 182px;
+    zoom: 1;
+    filter: alpha(opacity=65);
+    opacity: 0;
+  }
+  20% {
+    zoom: 1;
+    filter: alpha(opacity=65);
+    opacity: 1;
+  }
+  50% {
+    bottom: 280px;
+  }
+  80% {
+    zoom: 1;
+    filter: alpha(opacity=65);
+    opacity: 1;
+  }
+  100% {
+    bottom: 182px;
+    zoom: 1;
+    filter: alpha(opacity=65);
+    opacity: 0;
+  }
+}
+@keyframes enemy1 {
+  0% {
+    left: 500px;
+  }
+  100% {
+    left: 410px;
+  }
+}
+@keyframes goomba-dead {
+  0% {
+    background-position: -46px -696px;
+  }
+  50% {
+    background-position: -46px -696px;
+    zoom: 1;
+    filter: alpha(opacity=65);
+    opacity: 1;
+  }
+  99% {
+    background-position: -46px -696px;
+    zoom: 1;
+    filter: alpha(opacity=65);
+    opacity: 1;
+  }
+  100% {
+    background-position: -46px -696px;
+    zoom: 1;
+    filter: alpha(opacity=65);
+    opacity: 0;
+  }
+}
+@keyframes stagemove-second {
+  0% {
+    left: -180px;
+  }
+  50% {
+    left: -250px;
+  }
+  60% {
+    left: -265px;
+  }
+  100% {
+    left: -265px;
+  }
+}
+@keyframes mario-jump-second {
+  0% {
+    bottom: 30px;
+    left: 445px;
+  }
+  20% {
+    bottom: 171px;
+    left: 520px;
+  }
+  30% {
+    bottom: 138px;
+    left: 544px;
+  }
+  32% {
+    bottom: 138px;
+    left: 544px;
+  }
+  47% {
+    bottom: 228px;
+    left: 550px;
+  }
+  62% {
+    bottom: 138px;
+    left: 550px;
+  }
+  64% {
+    bottom: 138px;
+    left: 550px;
+  }
+  76% {
+    bottom: 233px;
+    left: 580px;
+  }
+  80% {
+    bottom: 253px;
+    left: 590px;
+  }
+  84% {
+    bottom: 273px;
+    left: 585px;
+  }
+  90% {
+    bottom: 293px;
+    left: 570px;
+  }
+  100% {
+    bottom: 293px;
+    left: 570px;
+  }
+}
+@keyframes mario-sprite-jump-2 {
+  0% {
+    background-position: -198px top;
+  }
+  30% {
+    background-position: 0 top;
+  }
+  33% {
+    background-position: -198px top;
+  }
+  62% {
+    background-position: 0 top;
+  }
+  64% {
+    background-position: -198px top;
+  }
+  100% {
+    background-position: 0 top;
+  }
+}
+@keyframes mario-grow {
+  0% {
+    background-position: 0 top;
+  }
+  33% {
+    background-position: 0 -179px;
+  }
+  66% {
+    background-position: 0 top;
+  }
+  100% {
+    background-position: 0 -179px;
+  }
+}
+@keyframes mushroom-reveal {
+  0% {
+    bottom: 254px;
+    zoom: 1;
+    filter: alpha(opacity=65);
+    opacity: 0;
+  }
+  18% {
+    zoom: 1;
+    filter: alpha(opacity=65);
+    opacity: 1;
+  }
+  71% {
+    zoom: 1;
+    filter: alpha(opacity=65);
+    opacity: 1;
+  }
+  72% {
+    zoom: 1;
+    filter: alpha(opacity=65);
+    opacity: 0;
+  }
+  100% {
+    bottom: 294px;
+  }
+}
+@keyframes qbox-up-qbox4 {
+  0% {
+    bottom: 239px;
+    zoom: 1;
+    filter: alpha(opacity=65);
+    opacity: 0;
+  }
+  50% {
+    bottom: 253px;
+    zoom: 1;
+    filter: alpha(opacity=65);
+    opacity: 1;
+  }
+  100% {
+    bottom: 239px;
+    zoom: 1;
+    filter: alpha(opacity=65);
+    opacity: 1;
+  }
+}
+@keyframes stagemove-third {
+  0% {
+    left: -265px;
+  }
+  25% {
+    left: -360px;
+  }
+  60% {
+    left: -500px;
+  }
+  100% {
+    left: -650px;
+  }
+}
+@keyframes mario-run-second {
+  0% {
+    left: 570px;
+    bottom: 293px;
+  }
+  40% {
+    left: 604px;
+    bottom: 253px;
+  }
+  80% {
+    left: 616px;
+    bottom: 220px;
+  }
+  100% {
+    left: 646px;
+    bottom: 220px;
+  }
+}
+@keyframes mario-run-sprite-second {
+  0% {
+    background-position: -140px -181px;
+  }
+  30% {
+    background-position: -140px -181px;
+  }
+  31% {
+    background-position: 0 -179px;
+  }
+  60% {
+    background-position: -205px -181px;
+  }
+  80% {
+    background-position: -74px -179px;
+  }
+  85% {
+    background-position: -140px -181px;
+  }
+  90% {
+    background-position: -74px -179px;
+  }
+  95% {
+    background-position: -140px -181px;
+  }
+  100% {
+    background-position: 0 -179px;
+  }
+}
+@keyframes mario-jump-third {
+  0% {
+    left: 646px;
+    bottom: 220px;
+  }
+  30% {
+    left: 730px;
+    bottom: 310px;
+  }
+  40% {
+    left: 760px;
+    bottom: 320px;
+  }
+  50% {
+    left: 800px;
+    bottom: 300px;
+  }
+  100% {
+    left: 910px;
+    bottom: 145px;
+  }
+}
+@keyframes mario-jump-qbox {
+  0% {
+    left: 910px;
+    bottom: 145px;
+  }
+  10% {
+    left: 930px;
+    bottom: 145px;
+  }
+  30% {
+    left: 955px;
+    bottom: 170px;
+  }
+  50% {
+    left: 970px;
+    bottom: 145px;
+  }
+  100% {
+    left: 1040px;
+    bottom: 145px;
+  }
+}
+@keyframes qbox-up-qbox5 {
+  0% {
+    bottom: 202px;
+    zoom: 1;
+    filter: alpha(opacity=65);
+    opacity: 0;
+  }
+  50% {
+    bottom: 216px;
+    zoom: 1;
+    filter: alpha(opacity=65);
+    opacity: 1;
+  }
+  100% {
+    bottom: 202px;
+    zoom: 1;
+    filter: alpha(opacity=65);
+    opacity: 1;
+  }
+}
+@keyframes coinup-two {
+  0% {
+    bottom: 262px;
+    zoom: 1;
+    filter: alpha(opacity=65);
+    opacity: 0;
+  }
+  20% {
+    zoom: 1;
+    filter: alpha(opacity=65);
+    opacity: 1;
+  }
+  50% {
+    bottom: 360px;
+  }
+  80% {
+    zoom: 1;
+    filter: alpha(opacity=65);
+    opacity: 1;
+  }
+  100% {
+    bottom: 262px;
+    zoom: 1;
+    filter: alpha(opacity=65);
+    opacity: 0;
+  }
+}
+@keyframes fireball-rotate {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes fireball-move {
+  0% {
+    bottom: 206px;
+    left: 810px;
+  }
+  100% {
+    bottom: 550px;
+    left: 0px;
+  }
+}
+@keyframes piranha-move {
+  from {
+    height: 74px;
+  }
+  to {
+    height: 0px;
+  }
+}
+@keyframes stagemove-fourth {
+  0% {
+    left: -650px;
+  }
+  100% {
+    left: -950px;
+  }
+}
+@keyframes enemy-third {
+  from {
+    left: 1200px;
+  }
+  to {
+    left: 1100px;
+  }
+}
+@keyframes mario-jump-fourth {
+  0% {
+    left: 1040px;
+    bottom: 145px;
+  }
+  65% {
+    left: 1175px;
+    bottom: 304px;
+  }
+  80% {
+    left: 1215px;
+    bottom: 324px;
+  }
+  85% {
+    left: 1225px;
+    bottom: 316px;
+  }
+  100% {
+    left: 1255px;
+    bottom: 292px;
+  }
+}
+@keyframes mario-sprite-jump-fourth {
+  0% {
+    background-position: -205px -181px;
+  }
+  80% {
+    background-position: -140px -181px;
+  }
+  100% {
+    background-position: -140px -181px;
+  }
+}
+@keyframes mario-turtle-hit {
+  0% {
+    left: 1255px;
+    bottom: 292px;
+  }
+  20% {
+    left: 1296px;
+    bottom: 292px;
+  }
+  40% {
+    left: 1342px;
+    bottom: 212px;
+  }
+  50% {
+    left: 1327px;
+    bottom: 150px;
+  }
+  63% {
+    left: 1306px;
+    bottom: 190px;
+  }
+  88% {
+    left: 1262px;
+    bottom: 110px;
+  }
+  100% {
+    left: 1267px;
+    bottom: 110px;
+  }
+}
+@keyframes mario-sprite-turtle-hit {
+  0% {
+    background-position: -140px -181px;
+  }
+  5% {
+    background-position: -74px -179px;
+  }
+  10% {
+    background-position: -140px -181px;
+  }
+  15% {
+    background-position: -74px -179px;
+  }
+  20% {
+    background-position: -140px -181px;
+  }
+  40% {
+    background-position: -140px -181px;
+    -webkit-transform: scalex(1);
+    -moz-transform: scalex(1);
+    -o-transform: scalex(1);
+    transform: scalex(1);
+  }
+  54% {
+    background-position: -205px -181px;
+  }
+  65% {
+    background-position: -140px -181px;
+  }
+  90% {
+    background-position: -336px -179px;
+  }
+  97% {
+    background-position: -74px -179px;
+    -webkit-transform: scalex(-1);
+    -moz-transform: scalex(-1);
+    -o-transform: scalex(-1);
+    transform: scalex(-1);
+  }
+  100% {
+    background-position: -140px -181px;
+    -webkit-transform: scalex(-1);
+    -moz-transform: scalex(-1);
+    -o-transform: scalex(-1);
+    transform: scalex(-1);
+  }
+}
+@keyframes turtle-walk {
+  0% {
+    left: 1346px;
+  }
+  50% {
+    left: 1376px;
+  }
+  100% {
+    left: 1340px;
+  }
+}
+@keyframes turtle-sprite {
+  0% {
+    background-position: -256px -703px;
+  }
+  60% {
+    background-position: -256px -703px;
+    -webkit-transform: scalex(1);
+    -moz-transform: scalex(1);
+    -o-transform: scalex(1);
+    transform: scalex(1);
+  }
+  94% {
+    background-position: -256px -703px;
+    -webkit-transform: scalex(1);
+    -moz-transform: scalex(1);
+    -o-transform: scalex(1);
+    transform: scalex(1);
+  }
+  95% {
+    background-position: -314px -704px;
+    -webkit-transform: scalex(1);
+    -moz-transform: scalex(1);
+    -o-transform: scalex(1);
+    transform: scalex(1);
+  }
+  100% {
+    background-position: -314px -704px;
+    -webkit-transform: scalex(1);
+    -moz-transform: scalex(1);
+    -o-transform: scalex(1);
+    transform: scalex(1);
+  }
+}
+@keyframes stagemove-fifth {
+  0% {
+    left: -950px;
+  }
+  100% {
+    left: -1050px;
+  }
+}
+@keyframes mario-kick-shell {
+  0% {
+    left: 1267px;
+    bottom: 110px;
+  }
+  100% {
+    left: 1290px;
+    bottom: 110px;
+  }
+}
+@keyframes mario-sprite-kick-shell {
+  0% {
+    background-position: -140px -181px;
+  }
+  10% {
+    background-position: -74px -179px;
+  }
+  20% {
+    background-position: -140px -181px;
+  }
+  100% {
+    background-position: -395px -179px;
+  }
+}
+@keyframes mario-jump-fifth {
+  0% {
+    left: 1290px;
+    bottom: 110px;
+  }
+  35% {
+    left: 1360px;
+    bottom: 146px;
+  }
+  70% {
+    left: 1450px;
+    bottom: 206px;
+  }
+  100% {
+    left: 1472px;
+    bottom: 186px;
+  }
+}
+@keyframes mario-racoon-change {
+  0% {
+    left: 1472px;
+    bottom: 186px;
+  }
+  50% {
+    left: 1472px;
+    bottom: 186px;
+  }
+  75% {
+    left: 1532px;
+    bottom: 130px;
+  }
+  100% {
+    left: 1566px;
+    bottom: 72px;
+  }
+}
+@keyframes mario-sprite-jump-fifth {
+  0% {
+    background-position: -395px -179px;
+  }
+  5% {
+    background-position: -205px -181px;
+  }
+  25% {
+    background-position: -140px -181px;
+  }
+  35% {
+    background-position: -604px -266px;
+  }
+  45% {
+    background-position: -663px -266px;
+  }
+  60% {
+    background-position: -733px -266px;
+  }
+  70% {
+    background-position: -131px -528px;
+  }
+  100% {
+    background-position: -131px -528px;
+  }
+}
+@keyframes turtle-rotate {
+  0% {
+    background-position: -314px -704px;
+  }
+  33% {
+    background-position: -375px -704px;
+  }
+  66% {
+    background-position: -431px -704px;
+  }
+  100% {
+    background-position: -431px -704px;
+  }
+}
+@keyframes turtle-hit-qbox {
+  0% {
+    left: 1340px;
+    bottom: 109px;
+  }
+  10% {
+    left: 1390px;
+    bottom: 109px;
+  }
+  20% {
+    left: 1483px;
+    bottom: 72px;
+  }
+  35% {
+    left: 1400px;
+    bottom: 72px;
+  }
+  50% {
+    left: 1310px;
+    bottom: 36px;
+  }
+  100% {
+    left: 1060px;
+    bottom: 36px;
+  }
+}
+@keyframes enemy-third-continued {
+  from {
+    left: 1100px;
+  }
+  to {
+    left: 980px;
+  }
+}
+@keyframes qbox-hit-qbox6 {
+  0% {
+    left: 1491px;
+    zoom: 1;
+    filter: alpha(opacity=65);
+    opacity: 0;
+  }
+  50% {
+    left: 1507px;
+    zoom: 1;
+    filter: alpha(opacity=65);
+    opacity: 1;
+  }
+  100% {
+    left: 1491px;
+    zoom: 1;
+    filter: alpha(opacity=65);
+    opacity: 1;
+  }
+}
+@keyframes leaf-up {
+  0% {
+    bottom: 78px;
+  }
+  99% {
+    bottom: 178px;
+    zoom: 1;
+    filter: alpha(opacity=65);
+    opacity: 1;
+  }
+  100% {
+    bottom: 178px;
+    zoom: 1;
+    filter: alpha(opacity=65);
+    opacity: 0;
+  }
+}
+@keyframes stagemove-sixth {
+  0% {
+    left: -1050px;
+  }
+  100% {
+    left: -1350px;
+  }
+}
+@keyframes mario-jump-sixth {
+  0% {
+    left: 1566px;
+    bottom: 72px;
+  }
+  10% {
+    left: 1576px;
+    bottom: 72px;
+  }
+  40% {
+    left: 1610px;
+    bottom: 90px;
+  }
+  70% {
+    left: 1640px;
+    bottom: 72px;
+  }
+  100% {
+    left: 1680px;
+    bottom: 72px;
+  }
+}
+@keyframes mario-jump-seventh {
+  0% {
+    left: 1680px;
+    bottom: 72px;
+  }
+  15% {
+    left: 1790px;
+    bottom: 172px;
+  }
+  25% {
+    left: 1840px;
+    bottom: 100px;
+  }
+  34% {
+    left: 1890px;
+    bottom: 160px;
+  }
+  45% {
+    left: 1930px;
+    bottom: 100px;
+  }
+  60% {
+    left: 2030px;
+    bottom: 230px;
+  }
+  70% {
+    left: 2080px;
+    bottom: 180px;
+  }
+  80% {
+    left: 2100px;
+    bottom: 210px;
+  }
+  100% {
+    left: 2088px;
+    bottom: 72px;
+  }
+}
+@keyframes mario-jump-seventh-sprite {
+  0% {
+    background-position: -196px -528px;
+  }
+  15% {
+    background-position: -131px -528px;
+  }
+  25% {
+    background-position: -196px -528px;
+  }
+  34% {
+    background-position: -131px -528px;
+  }
+  45% {
+    background-position: -196px -528px;
+  }
+  60% {
+    background-position: -131px -528px;
+  }
+  80% {
+    background-position: -131px -528px;
+    -webkit-transform: scalex(1);
+    -moz-transform: scalex(1);
+    -o-transform: scalex(1);
+    transform: scalex(1);
+  }
+  96% {
+    background-position: -264px -539px;
+    -webkit-transform: scalex(-1);
+    -moz-transform: scalex(-1);
+    -o-transform: scalex(-1);
+    transform: scalex(-1);
+  }
+  97% {
+    background-position: -917px -615px;
+    -webkit-transform: scalex(-1);
+    -moz-transform: scalex(-1);
+    -o-transform: scalex(-1);
+    transform: scalex(-1);
+  }
+  100% {
+    background-position: -131px -528px;
+    -webkit-transform: scalex(1);
+    -moz-transform: scalex(1);
+    -o-transform: scalex(1);
+    transform: scalex(1);
+  }
+}
+@keyframes qbox-up-qbox7 {
+  0% {
+    bottom: 128px;
+    zoom: 1;
+    filter: alpha(opacity=65);
+    opacity: 0;
+  }
+  50% {
+    bottom: 142px;
+    zoom: 1;
+    filter: alpha(opacity=65);
+    opacity: 1;
+  }
+  100% {
+    bottom: 128px;
+    zoom: 1;
+    filter: alpha(opacity=65);
+    opacity: 1;
+  }
+}
+@keyframes coinup-four {
+  0% {
+    bottom: 184px;
+    zoom: 1;
+    filter: alpha(opacity=65);
+    opacity: 0;
+  }
+  20% {
+    zoom: 1;
+    filter: alpha(opacity=65);
+    opacity: 1;
+  }
+  50% {
+    bottom: 282px;
+  }
+  80% {
+    zoom: 1;
+    filter: alpha(opacity=65);
+    opacity: 1;
+  }
+  100% {
+    bottom: 184px;
+    zoom: 1;
+    filter: alpha(opacity=65);
+    opacity: 0;
+  }
+}
+@keyframes enemy-fifth {
+  0% {
+    left: 1920px;
+  }
+  100% {
+    left: 1860px;
+  }
+}
+@keyframes enemy-sixth {
+  0% {
+    left: 2010px;
+  }
+  100% {
+    left: 1940px;
+  }
+}
+@keyframes enemy-seventh {
+  0% {
+    left: 2200px;
+    bottom: 74px;
+  }
+  40% {
+    left: 2130px;
+    bottom: 74px;
+  }
+  63% {
+    left: 2100px;
+    bottom: 144px;
+  }
+  73% {
+    left: 2090px;
+    bottom: 144px;
+  }
+  80% {
+    left: 2070px;
+    bottom: 68px;
+  }
+  100% {
+    left: 2060px;
+    bottom: 68px;
+  }
+}
+@keyframes enemy-seventh-sprite {
+  0% {
+    background-position: -492px -720px;
+  }
+  50% {
+    background-position: -492px -720px;
+  }
+  70% {
+    background-position: -2px -696px;
+  }
+  100% {
+    background-position: -2px -696px;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+}
+@keyframes enemy-seventh-dead {
+  0% {
+    left: 2060px;
+    bottom: 68px;
+  }
+  40% {
+    left: 2030px;
+    bottom: 178px;
+  }
+  100% {
+    left: 2000px;
+    bottom: -100px;
+  }
+}
+@keyframes mario-sprint {
+  0% {
+    left: 2088px;
+    bottom: 72px;
+  }
+  60% {
+    left: 1698px;
+    bottom: 72px;
+  }
+  65% {
+    left: 1688px;
+    bottom: 72px;
+  }
+  70% {
+    left: 1708px;
+    bottom: 72px;
+  }
+  90% {
+    left: 1808px;
+    bottom: 72px;
+  }
+  100% {
+    left: 1858px;
+    bottom: 72px;
+  }
+}
+@keyframes mario-sprite-sprint {
+  0% {
+    background-position: -131px -528px;
+    -webkit-transform: scalex(1);
+    -moz-transform: scalex(1);
+    -o-transform: scalex(1);
+    transform: scalex(1);
+  }
+  50% {
+    background-position: -68px -528px;
+    -webkit-transform: scalex(1);
+    -moz-transform: scalex(1);
+    -o-transform: scalex(1);
+    transform: scalex(1);
+  }
+  100% {
+    background-position: -68px -528px;
+    -webkit-transform: scalex(1);
+    -moz-transform: scalex(1);
+    -o-transform: scalex(1);
+    transform: scalex(1);
+  }
+}
+@keyframes mario-sprite-sprint-trans {
+  0% {
+    background-position: -336px -526px;
+    -webkit-transform: scalex(1);
+    -moz-transform: scalex(1);
+    -o-transform: scalex(1);
+    transform: scalex(1);
+  }
+  50% {
+    background-position: -131px -528px;
+    -webkit-transform: scalex(-1);
+    -moz-transform: scalex(-1);
+    -o-transform: scalex(-1);
+    transform: scalex(-1);
+  }
+  55% {
+    background-position: -68px -528px;
+    -webkit-transform: scalex(-1);
+    -moz-transform: scalex(-1);
+    -o-transform: scalex(-1);
+    transform: scalex(-1);
+  }
+  70% {
+    background-position: -131px -528px;
+    -webkit-transform: scalex(-1);
+    -moz-transform: scalex(-1);
+    -o-transform: scalex(-1);
+    transform: scalex(-1);
+  }
+  85% {
+    background-position: -68px -528px;
+    -webkit-transform: scalex(-1);
+    -moz-transform: scalex(-1);
+    -o-transform: scalex(-1);
+    transform: scalex(-1);
+  }
+  100% {
+    background-position: -131px -528px;
+    -webkit-transform: scalex(-1);
+    -moz-transform: scalex(-1);
+    -o-transform: scalex(-1);
+    transform: scalex(-1);
+  }
+}
+@keyframes mario-sprint2 {
+  0% {
+    left: 1858px;
+    bottom: 72px;
+  }
+  100% {
+    left: 2258px;
+    bottom: 72px;
+  }
+}
+@keyframes mario-sprite-sprint2 {
+  0% {
+    background-position: -131px -528px;
+    -webkit-transform: scalex(-1);
+    -moz-transform: scalex(-1);
+    -o-transform: scalex(-1);
+    transform: scalex(-1);
+  }
+  50% {
+    background-position: -68px -528px;
+    -webkit-transform: scalex(-1);
+    -moz-transform: scalex(-1);
+    -o-transform: scalex(-1);
+    transform: scalex(-1);
+  }
+  100% {
+    background-position: -68px -528px;
+    -webkit-transform: scalex(-1);
+    -moz-transform: scalex(-1);
+    -o-transform: scalex(-1);
+    transform: scalex(-1);
+  }
+}
+@keyframes mario-flight-sprite {
+  0% {
+    background-position: -113px -615px;
+    -webkit-transform: scalex(-1);
+    -moz-transform: scalex(-1);
+    -o-transform: scalex(-1);
+    transform: scalex(-1);
+  }
+  50% {
+    background-position: -57px -615px;
+    -webkit-transform: scalex(-1);
+    -moz-transform: scalex(-1);
+    -o-transform: scalex(-1);
+    transform: scalex(-1);
+  }
+  100% {
+    background-position: -113px -615px;
+    -webkit-transform: scalex(-1);
+    -moz-transform: scalex(-1);
+    -o-transform: scalex(-1);
+    transform: scalex(-1);
+  }
+}
+@keyframes mario-flight {
+  0% {
+    left: 2258px;
+    bottom: 72px;
+  }
+  100% {
+    left: 3258px;
+    bottom: 902px;
+  }
+}
+@keyframes mario-in-flight {
+  0% {
+    background-position: -720px -615px;
+    -webkit-transform: scalex(-1);
+    -moz-transform: scalex(-1);
+    -o-transform: scalex(-1);
+    transform: scalex(-1);
+  }
+  50% {
+    background-position: -786px -615px;
+    -webkit-transform: scalex(-1);
+    -moz-transform: scalex(-1);
+    -o-transform: scalex(-1);
+    transform: scalex(-1);
+  }
+  100% {
+    background-position: -786px -615px;
+    -webkit-transform: scalex(-1);
+    -moz-transform: scalex(-1);
+    -o-transform: scalex(-1);
+    transform: scalex(-1);
+  }
+}
+@keyframes coin-disappear {
   0% {
     background-position: 1000px 10000px;
   }
